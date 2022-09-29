@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addtowishlist.css">
+    <script type="text/JavaScript" src="addtowishlist.js"></script>
+    <title>My Cart</title>
+</head>
+<h1> Welcome to My ECart </h1>
+<body>
+        <div class="container">
+            <div class="card" id="item1">
+                <img src="image/shivaji 2.jpg">
+                <div class="title">Shivaji Maharaj</div>
+                <div>
+                    <label>SIZE: </label>
+                    <select>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                    </select>
+                </div>
+                <button onclick="addtowishlist(item1)">Add To Wishlist</button>
+            </div>
+            <div class="card" id="item2">
+                <img src="image/Bhagat Singh Photo.jpg">
+                <div class="title">Bhagat Singh</div>
+                <div>
+                    <label>SIZE: </label>
+                    <select>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                    </select>
+                </div>
+                <button onclick="addtowishlist(item2)">Add To Wishlist</button>
+            </div>
+        </div>
+        <div class="wishlist" id="wishlist">
+            <div class="title">WISHLIST</div><hr/>
+            <div id="title"></div>
+
+        </div>
+     
+    
+</body>
+</html>
